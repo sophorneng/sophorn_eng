@@ -1,13 +1,85 @@
-.container {
-    position: relative;
-  }
-.vertical-menu{
-  background-color:blue;
-  padding:20px;
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(123, 141, 158);
+    font-family: sans-serif;
 }
-ul a{
-  text-decoration: none;
-  margin: 0 15px;
-  color:white;
+ul{
+    margin: 0;
+    padding: 3px;
+    background-color: rgb(18, 145, 248);
+    list-style: none;
+    overflow: hidden;
+    display: flex;
 
 }
+li{
+    
+}
+li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.container img{
+    height: 30%;
+    width: 90%;
+}
+.a{
+    height: 20pxpx;
+    width: 100%;
+}
+.cv{
+    width: 40%;
+    color: rgb(248, 252, 251);
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: -2%;
+    font-family: sans-serif;
+}
+.cv h2{
+    font-family: sans-serif;
+    color:white;
+}
+.con{
+    display: flex;
+}
+.h{
+    margin: 0;
+}
+.a1{
+    color: chartreuse;
+}
+.container1 {
+    position: relative;
+    
+    color:red;
+  }
+  .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .send1{
+      background-color: tomato;
+  }
+.
+.box{
+
+    margin-left: 20%;
+    margin-top: 0%;
+
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .btn:hover {
+    
+    background-color: RoyalBlue;
+  }
