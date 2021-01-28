@@ -3,6 +3,7 @@ body{
     padding: 0%;
     background-color: rgb(123, 141, 158);
     font-family: sans-serif;
+    color:white;
 }
 ul{
     margin: 0;
@@ -11,6 +12,7 @@ ul{
     list-style: none;
     overflow: hidden;
     display: flex;
+    
 
 }
 li{
@@ -45,41 +47,115 @@ li a{
 .con{
     display: flex;
 }
-.h{
-    margin: 0;
-}
 .a1{
-    color: chartreuse;
+    color: rgb(176, 209, 28);
 }
-.container1 {
-    position: relative;
+
+.row1{
+        width: 400px;
+        margin:auto;
+        margin-top: 100px;
+        }
+        input{
+        padding: 10px;
+        box-sizing: border-box;
+        }
+        
+        input[type=text],
+        input[type=tel],
+        input[type=email]{
+        width: 100%;
+        border-radius: 10px;
+        
+        
+        }
+        input[type=email]{
+        width: 100%;
+        margin: 10px 0;
+        }
+        input[type=submit]{
+        background: rgb(1, 112, 112);
+        border:none;
+        text-transform: uppercase;
+        width:50%;
+        margin-left: 100px;
+        border-radius: 10px;
     
-    color:red;
-  }
-  .centered1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  .send1{
-      background-color: tomato;
-  }
-.
-.box{
-
-    margin-left: 20%;
-    margin-top: 0%;
-
+  
+        }
+.map{
+    padding :0px;
+    height: 20px;
 }
-.btn {
+/* .btn {
     background-color: DodgerBlue;
     border: none;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 20px; */
+  /* } */
+  .pdf{
+      margin-top: 400px;
+      
+      
   }
-  .btn:hover {
+  .p1{
+    display: flex;
+    }
+    .p2{
     
-    background-color: RoyalBlue;
-  }
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    margin-left:100px ;
+    
+    }
+    .p3 img{
+    
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    }
+    .p4 img{
+    width: 500px;
+    height: 500px;
+    }
+    .p3 p{
+    
+    margin-top: 4%;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    }
+    .p4 p{
+    
+    margin-top: 3%;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    }
+    .hvr-pulse-grow{
+        background-color: teal;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    .download{
+        text-align: center;
+    }
+    .p3 h4{
+        color: red;
+    }
+    .footer {
+        position: fixed;;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(67, 64, 197);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-right: 10px;
+     }
