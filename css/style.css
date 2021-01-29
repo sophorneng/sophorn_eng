@@ -6,27 +6,26 @@ body{
     color:white;
 }
 ul{
-    margin: 0;
+    margin-top:20px;
     padding: 3px;
-    background-color: rgb(18, 145, 248);
     list-style: none;
     overflow: hidden;
     display: flex;
+    float: right;
+}
+    button:hover, a:hover {
+        opacity: 0.7;
+        background-color: rgb(185, 36, 56);
+    }
     
 
-}
-li{
-    
-}
+
 li a{
     color: white;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
-}
-.container img{
-    height: 30%;
-    width: 90%;
+ 
 }
 .a{
     height: 20pxpx;
@@ -44,118 +43,139 @@ li a{
     font-family: sans-serif;
     color:white;
 }
-.con{
-    display: flex;
-}
+
 .a1{
     color: rgb(176, 209, 28);
 }
-
+.container{
+    margin-left: 10px;
+}
 .row1{
-        width: 400px;
-        margin:auto;
-        margin-top: 100px;
+       
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 10%; 
+    display: flex;
+        } 
+input{
+    padding: 10px;
+    box-sizing: border-box;
         }
-        input{
-        padding: 10px;
-        box-sizing: border-box;
-        }
+
         
-        input[type=text],
-        input[type=tel],
-        input[type=email]{
-        width: 100%;
-        border-radius: 10px;
-        
-        
+input[type=text],
+input[type=tel],
+input[type=email]{
+    width: 100%;
+    border-radius: 10px;
         }
-        input[type=email]{
-        width: 100%;
-        margin: 10px 0;
+input[type=email]{
+    width: 100%;
+    margin: 10px 0;
         }
-        input[type=submit]{
-        background: rgb(1, 112, 112);
-        border:none;
-        text-transform: uppercase;
-        width:50%;
-        margin-left: 100px;
-        border-radius: 10px;
+input[type=submit]{
+    background: rgb(1, 112, 112);
+    border:none;
+    text-transform: uppercase;
+    width:50%;
+    margin-left: 100px;
+    border-radius: 10px;
     
   
+ 
         }
-.map{
-    padding :0px;
-    height: 20px;
-}
-/* .btn {
+    
+.btn {
     background-color: DodgerBlue;
     border: none;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
-    font-size: 20px; */
-  /* } */
+    font-size: 20px;
+  } 
   .pdf{
       margin-top: 400px;
       
       
   }
-  .p1{
+.download{
+    text-align: center;
+     margin-bottom: 0px; 
+    }
+.all-browsers {
+     margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+      }
+      
+.all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+      }
+      
+.browser {
+    background: rgb(243, 232, 232);
+      }
+      
+.browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+      }
+      
+    
+.s1{
     display: flex;
     }
-    .p2{
-    
-    margin-top: 50px;
+.s2{
     display: flex;
     padding: 10px;
+    margin-top: 50px;
     margin-left:100px ;
-    
+
     }
-    .p3 img{
-    
+.s3 img{
+    width: 500px;
+    height: 300px;
     text-align: center;
-    width: 500px;
-    height: 500px;
     }
-    .p4 img{
+.s4 img{
     width: 500px;
-    height: 500px;
+    height: 300px;
     }
-    .p3 p{
-    
-    margin-top: 4%;
+.s3 p{
     width: 80%;
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    }
-    .p4 p{
-    
     margin-top: 3%;
-    width: 80%;
-    color: rgb(0, 0, 0);
     font-family: sans-serif;
     }
-    .hvr-pulse-grow{
-        background-color: teal;
-        padding: 20px;
-        border-radius: 10px;
-        font-family: sans-serif;
-        text-decoration: none;
+.s4 p{
+    width: 80%;
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+    font-family: sans-serif;
     }
-    .download{
-        text-align: center;
-    }
-    .p3 h4{
-        color: red;
-    }
-    .footer {
-        position: fixed;;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: rgb(67, 64, 197);
-        color: white;
-        text-align: center;
-        border-radius: 10px;
-        margin-right: 10px;
-     }
+   
+
+.containered{
+            width: 100%;
+            height: 150px;
+            background: #22bbea;
+            margin-top: 500px;
+            }
+.col-6{
+     background-color: black;
+     border-radius: 5px;
+    margin-top: 50px;
+     width: 40%;
+     height: 100px;
+    color: #f5f5f5;
+    font-family: sans-serif;
+    float: right;
+     padding: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.hero{
+  margin-bottom: ;
+}            } 
